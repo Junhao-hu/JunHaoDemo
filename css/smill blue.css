@@ -1,0 +1,206 @@
+row,.col-xs-12{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 430px;
+}
+.phone-txt-xs{
+	width: 100%;
+	min-width: 430px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 75px;
+}
+.phone-txt-xs p{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #5a5a5a;
+}
+.img-ani{
+	width: 100%;
+	min-width: 430px;
+	height: 900px;
+	position: relative;
+}
+..img-ani li{
+	list-style: none;
+}
+..img-ani li img{
+	width: 100%;
+	height: 800px;
+}
+.img-ani span{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #ccc;
+	margin-right: 15px;
+}
+.img-div{
+	position: absolute;
+	left: 50%;
+	margin-left: -185px;
+}
+.span-div{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -45px;
+}
+.span-active{
+	background: deepskyblue !important;
+}
+
+.bike-more-smill{
+	width: 100%;
+	min-width: 430px;
+	height: 930px;
+	margin: 0 auto;
+	background: #f4f5f5;
+	margin-top: 15px;
+	padding-top: 60px;
+}
+.bike-more-smill p{
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	padding-left: 30px;
+	color: #5a5a5a;
+	position: relative;
+}
+.img-div2{
+	width: 100%;
+	height: 740px;
+	margin: 0 auto;
+}
+.img-div2 img{
+	width: 100%;
+	min-width: 430px;
+	height: 740px;
+}
+.lr-div{
+	width: 147px;
+	margin: 0 auto;
+}
+.img-divleft{
+	width: 73px;
+	height: 44px;
+	overflow: hidden;
+	float: left;
+	background: url(../img/phone/rightclick.png) no-repeat 0px center;
+	background-size:148px 44px ;
+}
+.img-divright{
+	width: 73px;
+	height: 44px;
+	overflow: hidden;
+	float: right;
+	background: url(../img/phone/rightclick.png) no-repeat -72px center;
+	background-size:148px 44px ;
+}
+
+.bikemore-smill{
+	width: 100%;
+	min-width: 430px;
+}
+.bikemore-smill p{
+	text-align: center;
+	font-size: 26px;
+	color: #5a5a5a;
+}
+.img-txt{
+	width: 180px;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 45px;
+	position: relative;
+}
+.img-txt img{
+	width: 184px;
+	height: 318px;
+}
+
+.left-gly2{
+	cursor: pointer;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	z-index: 5;
+	top:12%;
+	left:-50px;
+}
+.right-gly2{
+	cursor: pointer;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	z-index: 5;
+	top:12%;
+	right: -50px;
+}
+
+.show-smill{
+	width: 100%;
+	min-width: 430px;
+	height: 400px;
+	background: url(../img/phone/manbike.jpg) no-repeat;
+	background-size:100% 100% ;
+}
+.show-smill h2,p{
+	text-align: center;
+	color: #fff;
+}
+.show-smill h2{padding-top: 180px;}
+.show-smill p{font-size: 20px;}
+.down-smill{
+	width: 100%;
+	min-width: 430px;
+	height: 235px;
+	margin-top: 100px;
+}
+.down-logo{
+	width: 160px;
+	height: 65px;
+	margin: 0 auto;
+}
+.down-logo img{
+	width: 160px;
+	height: 65px;
+}
+.wx-wb-smill{
+	width: 158px;
+	height: 60px;
+	margin: 0 auto;
+}
+.wx-wb-smill img{
+	width: 47px;
+	height: 47px;
+	margin: 15px;
+}
+.chn-smill{
+	width: 110px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.chn-smill img{
+	margin: 0 10px;
+}
+.bottom-smill{
+	width: 100%;
+	min-width: 430px;
+	height: 150px;
+	background: #0090ff;
+}
+.p-txt-smill{
+	font-size: 12px;
+	padding-left: 15px;
+}
+.p-txt-smill a{
+	color: #fff;
+	margin:0 15px;
+}

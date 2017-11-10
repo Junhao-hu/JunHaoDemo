@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>小蓝单车</title>
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/blue.css"/>
+		<link rel="stylesheet" type="text/css" href="css/smill blue.css"/>
+		<script type="text/javascript" src="../maizi/public/js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!--顶部导航栏--> 
+		<div class="row top_navbar navbar navbar-default navbar-fixed-top">
+		<div class="col-sm-12">
+			<div class="container">
+				<div class="navbar-header">
+					<!--收缩按钮-->
+				    <button type="button" class="navbar-toggle collapsed btn-1" data-toggle="collapse"  data-target="#navbar"  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					    <span class="sr-only">Toggle navigation</span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+				    </button>
+				    <!--logo-->
+				    <div class="logo visible-xs-block" style="position:absolute;left: 50%; margin-left: -74px;">
+				    	<a href="#"><img src="img/logochange.png" /></a>
+				    </div>
+				    <div class="logo hidden-xs">
+				    	<a href="#"><img src="img/logochange.png" /></a>
+				    </div>
+			   </div>
+			   <!--右侧导航栏、收缩导航栏-->
+				    <div id="navbar" class="navbar-collapse collapse navbar-right">
+			            <ul class="nav navbar-nav nav-first hidden-xs">
+			              <li class="blue-h"><a href="#">首页</a></li>
+			              <li><a href="#">玩转小蓝</a></li>
+			              <li><a href="#">有范儿</a></li>
+			              <li><a href="#">下载APP</a></li>
+			              <li class="dropdown chn-li">
+			                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/china.png" class="chn"/><lable>中文</lable><img src="img/down.png"></a>
+			               	<!--二级列表-->
+			               <ul class="dropdown-menu chn-li2">
+			                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/america.png" class="chn"/><lable>EN</lable></a>
+			                </ul>
+			              </li>
+			            </ul>
+			            <!--小屏显示效果-->
+			            <ul class="nav navbar-nav visible-xs-block">
+			              <li><a href="#">首页</a></li>
+			              <li><a href="#">玩转小蓝</a></li>
+			              <li><a href="#">有范儿</a></li>
+			            </ul>
+			       </div>
+			    <!--下载APP-->
+			    <div class="dowm-app visible-xs-block">
+					<a href="#">下载App</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--中间大图-->
+		<div class="row banner-img">
+			<div class="col-sm-12">
+				<img src="img/banner.jpg" class="img-responsive hidden-xs"/>
+				<img src="img/phone/banner2.jpg" alt="" class="img-responsive visible-xs-block" />
+				<p class="p-txt  hidden-xs">自 有 骑 行 范 儿 。</p>
+				<!--小屏显示效果-->
+				<ul class="p-txt-ul visible-xs-block">
+					<li>自</li>
+					<li>有</li>
+					<li>骑</li>
+					<li>行</li>
+					<li>范</li>
+					<li>儿</li>
+					<li>。</li>
+				</ul>
+			</div>
+		</div>
+		<!--手机显示-->
+		
+		<div class="row">
+			<div class="col-sm-12  hidden-xs">
+				<div class="div-phone">
+					<div class="phone-1">
+						<p>玩转小蓝，尽在掌控</p>
+					</div>
+					<div class="phone-mind">
+						<div id="img-anm" class="img-anm">
+							<ul>
+								<li class="item active"><img src="img/slide01.png"/></li>
+								<li class="item"><img src="img/slide02.png"/></li>
+								<li class="item"><img src="img/slide03.png"/></li>
+								<li class="item"><img src="img/slide04.png"/></li>
+								<li class="item"><img src="img/slide05.png"/></li>
+							</ul>
+						</div>
+					</div>
+					<div class="phone-btn">
+						<div class="p-btn">
+							<div class="p-btn-img p-btn-img1"></div>
+							<h3>预约单车</h3>
+							<p>APP寻车，提前预约附近单车</p>
+						</div>
+						<div class="p-btn">
+							<div class="p-btn-img p-btn-img2"></div>
+							<h3>快速取车</h3>
+							<p>导航引导取车，靠近车辆响铃定位</p>
+						</div>
+						<div class="p-btn">
+							<div class="p-btn-img p-btn-img3"></div>
+							<h3>扫码解锁</h3>
+							<p>扫描车身二维码，即可解锁用车</p>
+						</div>
+						<div class="p-btn">
+							<div class="p-btn-img p-btn-img4"></div>
+							<h3>用车骑行</h3>
+							<p>查看当前位置，使用时长与花费</p>
+						</div>
+						<div class="p-btn">
+							<div class="p-btn-img p-btn-img5"></div>
+							<h3>结束用车</h3>
+							<p>公共单车停放区域，落锁自动还车</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!--小屏效果-->
+			<div class="row">
+				<div class="col-xs-12 visible-xs-block">
+					<div class="phone-txt-xs">
+						<p>玩转小蓝，尽在掌控</p>
+						<div class="img-ani" id="div1">
+							<div class="img-div">
+								<img src="img/phone01.jpg"/>
+							</div>
+							<div class="span-div">
+								<span class="span-active"></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--单车介绍-->
+			<div class="row">
+				<div class="bike-more  hidden-xs">
+				<div class="bikemore">
+					<h2>打造一辆有范儿的单车</h2>
+					<p>善解人意的设计，让出行更畅快</p>
+					<div class="bikehave">
+						<img src="img/bike02.png"/>
+						<div class="have1 pos"><p>人体工学可调节座椅</p><img src="img/line01.png"/></div>
+						<div class="have2 pos"><img src="img/line02.png"/><p>一体式车铃</p></div>
+						<div class="have3 pos"><img src="img/line03.png"/><p>壁虎式手柄</p></div>
+						<div class="have4 pos"><img src="img/line04.png"/><p>智能锁</p></div>
+						<div class="have5 pos"><img src="img/line05.png"/><p>铝合金加固车篮</p></div>
+						<div class="have6 pos"><img src="img/line06.png"/><p>双面螺旋设计脚踏</p></div>
+					</div>
+					<h1 class="til">安全，为每一次出行保驾护航</h1>
+					<!--左右的箭头-->
+					<div style="position: relative;">
+					<span class="glyphicon glyphicon-menu-left left-gly"></span>
+					<span class="glyphicon glyphicon-menu-right right-gly"></span>
+						<div class="more-bike">
+							<div class="morebike">
+								<ul>
+									<li>
+										<div class="saybike1 saybike"></div>
+										<h3>双层车胎</h3>
+										<p>特质双层防爆胎</p>
+										<p>有效减轻骑行颠簸</p>
+									</li>
+									<li>
+										<div class="saybike2 saybike"></div>
+										<h3>极速制动</h3>
+										<p>花鼓前刹配合抱闸后刹</p>
+										<p>带来可靠的制动效果</p>
+									</li>
+									<li class="more-li-3">
+										<div class="saybike3 saybike"></div>
+										<h3>安全标识</h3>
+										<p>反光标识涂装</p>
+										<p>夜间骑行更加安全</p>
+									</li>
+									<li class="more-li-4">
+										<div class="saybike4 saybike"></div>
+										<h3>轻体车身</h3>
+										<p>重量更轻的铝合金车架</p>
+										<p>才能更好驾驭</p>
+									</li>
+									<li class="more-li-4">
+										<div class="saybike5 saybike"></div>
+										<h3>链条传动</h3>
+										<p>轻快省力，让路人注目的</p>
+										<p>每一次超越</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<!--小屏效果-->
+			<div class="row">
+				<div class="col-xs-12 visible-xs-block">
+					<div class="bike-more-smill">
+						<p>打造一辆有范儿的单车</p>
+						<div class="img-div2">
+							<img src="img/phone/bikeleft.jpg"/>
+						</div>
+						<div class="lr-div cl">
+							<div class="img-divleft"></div>
+							<div class="img-divright"></div>
+						</div>
+					</div>
+					<div class="bikemore-smill">
+						<p>安全</p>
+						<p>从第一次蹬踏开始</p>
+						<div class="img-txt" id="img-txt">
+							<img src="img/phone/bike001.jpg"/>
+							<span class="glyphicon glyphicon-menu-left left-gly2"></span>
+							<span class="glyphicon glyphicon-menu-right right-gly2"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Show部分-->
+			<div class="row">
+				<div class="col-sm-12  hidden-xs">
+					<div class="div-show">
+						<div class="show-txt">
+							<h2>Show出你的骑行范儿</h2>
+							<p>和小蓝一起，寻找自由</p>
+						</div>
+					</div>
+				</div>
+				<!--小屏效果-->
+				<div class="row">
+					<div class="col-xs-12 visible-xs-block">
+						<div class="show-smill">
+							<h2>Show出你的骑行范儿</h2>
+							<p>和小蓝一起,寻找自由</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--下载部分-->
+			<div class="row">
+				<div class="col-sm-12  hidden-xs">
+					<div class="div-down">
+						<div class="div-down2">
+							<div class="down-left">
+								<div class="qr-code">
+									<img src="img/downma.png" style="width: 147px;height: 147px;"/>
+								</div>
+								<img src="img/iphone.png" class="phone-down"/>
+								<img src="img/android.png" class="phone-down"/>
+							</div>
+							<div class="down-right">
+								<div class="down-phone">
+									<img src="img/dbphone.png"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--小屏效果-->
+				<div class="row">
+					<div class="col-xs-12 visible-xs-block">
+						<div class="down-smill">
+							<div class="down-logo">
+								<img src="img/phone/dibudanche.png"/>
+							</div>
+							<div class="wx-wb-smill">
+								<img src="img/phone/weixin.png" />
+								<img src="img/phone/weibo.png"/>
+							</div>
+							<div class="chn-smill">
+								<span><img src="img/china.png" style="width: 24px;height: 24px;"/></span><lable>中文</lable><span><img src="img/up1.png" style="width: 16px;height: 16px;"/></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--底部部分-->
+			<div class="row">
+				<div class="col-sm-12  hidden-xs">
+					<div class="div-bottom">
+						<div class="divbottom">
+							<div class="logosmill">
+								<img src="img/endChangeLogo01.png"/>
+							</div>
+							<div class="wx-wb">
+								<div class="nosee">
+									<img src="img/bluema860.jpg"/>
+								</div>
+								<img src="img/linkwx2.png" class="wx"/>
+								<img src="img/linkwb2.png"/>
+							</div>
+							<div class="frend-link">
+								<div class="link-ul">
+									<ul>
+										<li>客服热线：400-800-3898</li>
+										<li>周一 至 周日 08:00 - 20:00</li>
+									</ul>
+									<ul>
+										<li>客服邮箱：<a href="#">feedback@bluegogo.com</a></li>
+										<li>业务合作邮箱：<a href="#">public@bluegogo.com</a></li>
+									</ul>
+									<ul class="link-ul-3">
+										<li>联系方式：010－64796030</li>
+										<li>公司地址：天津 武清区京滨工业园京滨睿城4号楼204室－78</li>
+									</ul>
+								</div>
+								<p class="last-p">
+									©2017天津鹿鼎科技有限公司｜
+									<a href="#">津ICP备 16007663号</a>｜
+									<a href="#"><span><img src="img/national_emblem.png"/>京公网安备 11010502033508号</span></a>｜
+									<a href="#"><img src="img/sf.png" style="width: 50px;height: 18px;"/></a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--小屏效果-->
+			<div class="row">
+				<div class="col-xs-12 visible-xs-block">
+					<div class="bottom-smill">
+						<p>400-800-3898</p>
+						<p>（周一到周五 08:00 - 20:00）</p>
+						<p class="p-txt-smill">
+							<a href="#"><img src="img/phone/email.png" style="width: 15px;height: 11px;margin-right: 5px;"/>客服邮箱</a>
+							<a href="#"><img src="img/phone/hezuo.png" style="width: 17px;height: 11px;margin-right: 5px;"/>业务合作邮箱</a>
+						</p>
+						<p>
+                            ©2017天津鹿鼎科技有限公司｜津ICP备 16007663号<br />
+                            <a href="#"><img src="img/phone/sf.png" style="width: 50px;height: 18px;"/></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+		 
+		 //手机轮播图
+        var i=0;
+		var timer;
+		$(function(){
+			showTime();
+			$('#img-anm').hover(function(){
+				i=$(this).index();
+				
+				clearInterval(timer);
+			},function(){
+				show();
+				showTime();
+			});
+		});
+		function show(){
+			$("#img-anm ul").animate({marginLeft:"-260px"},2000,"linear",function(){  
+                    $(this).css({marginLeft:"0px"});  
+                    $(this).children("li").first().remove().clone(true).appendTo("#img-anm ul");  
+               }); 
+//          $(".p-btn div").each(function(){
+//          	$(this).css("background-image").split("\"")[1]
+//          })
+		};
+		function showTime(){
+			timer=setInterval(function(){
+				show();
+				if (i==4) {
+					i=0;
+				};
+			},4000);
+		};
+		
+		//点击移动
+		$(function(){
+			$('.left-gly').click(function(){
+				$('.morebike').css({
+					'position':'absolute',
+					'top':'20px',
+					'left':'-1000px'
+				})
+			})
+			$('.right-gly').click(function(){
+				$('.morebike').css({
+					'position':'absolute',
+					'top':'20px',
+					'left':'0px'
+				})
+			})
+		})
+		
+		
+		$(function(){
+			$('.wx').hover(function(){
+				$('.nosee').show(400)
+			},function(){
+				$('.nosee').hide(400)
+			})
+		})
+		
+		//小页面下的轮播图JS
+		window.onload=function(){
+			var oDiv=document.getElementById('div1')
+			var aSpan=oDiv.getElementsByTagName('span')
+			var oImg=oDiv.getElementsByTagName('img')
+			var index=0
+			var timer2=0
+			
+			
+			function movesmile(){
+				if(index>4){
+					index=0
+				}
+				oImg[0].src='img/phone0'+(index+1)+'.jpg'
+				for(var j=0;j<aSpan.length;j++){
+					
+						aSpan[j].className=''
+					}
+					aSpan[index].className='span-active';
+					index++;
+			}
+			movesmile();
+			timer2=setInterval(movesmile,2500)
+			
+			var oDiv2=document.getElementById('img-txt')
+			var oBtn1=oDiv2.getElementsByClassName('left-gly2')
+			var oBtn2=oDiv2.getElementsByClassName('right-gly2')
+			var oImg2=oDiv2.getElementsByTagName('img')
+			var j=1;
+			
+				oBtn1[0].onclick=function(){
+					j++
+					if(j==6){
+						j=1
+					}
+					oImg2[0].src='img/phone/bike00'+j+'.jpg';
+				}
+				oBtn2[0].onclick=function(){
+					j++
+					if(j==6){
+						j=1
+					}
+					oImg2[0].src='img/phone/bike00'+j+'.jpg'
+				}
+			
+		}
+
+		
+			
+		
+	</script>
+</html>
